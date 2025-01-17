@@ -4,6 +4,7 @@
 
 body{
 background-color: white;
+margin: 0;
 
 }
 header{margin-bottom: 25px;
@@ -121,7 +122,10 @@ header{margin-bottom: 25px;
     color: white;
     padding: 40px;
     text-align: center;
+    
+    position: relative;
     bottom: 0;
+    margin-top: auto;
   }
  
   .footer h3 {
