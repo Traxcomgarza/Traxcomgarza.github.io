@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css"
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -11,32 +13,77 @@
     <title>Document</title>
 </head>
 <body>
+
     <header>
-        <h1>TecMilenio</h1>
-        <p>Conocenos</p>
-        <p>Mision</p>
-        <p>Vision</p>
+        <nav class="menu">
+        <div class="logo"><h1>Olympus</h1></div>
+        <div class="enlaces">
+            <ul>
+                <li><a href="">inicio</a></li>
+                <li><a href="">Conocenos</a></li>
+                <li><a href="">Vision</a></li>
+                <li><a href="">Mision</a></li>
+            </ul>
+
+        </div>
+    </nav>
+        
+        
+      
     </header>
     <section id="container">
-        <div>Act1</div>
-        <div>Act2</div>
-        <div>Act3</div>
-        <div>Act4</div>
+        <div class="carrousel">
+    
+    
+        <div class="slider">
+  
+          
+            <div class="slides">
+              <div id="slide-1">
+                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/cf6b7b28-2b0d-8653-cc70-08323a8de235.jpeg?a=49f1f7f0-10ed-2ca3-79e0-54da52c6bc0a">
+              </div>
+              <div id="slide-2">
+                <img src="https://cdn.tictuk.com/19d82e99-888f-c7b6-e01c-9f66775c62ac/ae0ef5dd-9941-52ad-47de-23569ffb121f.png?a=fecde957-05ed-41d1-ed7a-a9c132b1daea">
+              </div>
+              <div id="slide-3">
+                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/1581938a-3c1f-8c75-27e0-c56cc4aa48ba.jpeg?a=bfb1f54c-8e38-f255-df35-0f11777e08f9" alt="">
+            </div>
+          </div>
+        </div>
     </section>
     <form>
 
     </form>
-    <section id="contact">
-        <h2>Contáctanos</h2>
-        <p>telefono.....</p>
-    </section>
-    <footer>
-        <p>Instagram</p>
-        <p>Whatsapp</p>
-        <p>Linkedin</p>
-        <p>Copyright</p>
-    </footer>
+   
+ 
 
-    
+    <footer class="footer">
+        <div class="contacto">
+          <h2>Contactanos</h2>
+          <p>Email: contacto@</p>
+          <p>Teléfono: 000000</p>
+        </div>
+      
+        <div class="redes-sociales">
+          <h2>Síguenos</h2>
+          <ul>
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+          </ul>
+        </div>
+      
+        <div class="form">
+          <h2>Envíanos un mensaje</h2>
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="tu nombre" required>
+            <input type="email" name="email" placeholder="u correo electronico" required>
+            <textarea name="message" placeholder="tu mensaje" required></textarea>
+            <button type="submit">enviar</button>
+          </form>
+        </div>
+      </footer>
+      
 </body>
 </html>
