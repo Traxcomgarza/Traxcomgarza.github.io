@@ -120,6 +120,7 @@ header{margin-bottom: 25px;
     color: white;
     padding: 40px;
     text-align: center;
+    bottom: 0;
   }
  
   .footer h3 {
