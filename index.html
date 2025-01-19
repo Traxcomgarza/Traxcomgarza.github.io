@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -12,16 +12,16 @@
     <title>Document</title>
 </head>
 <body>
-
+ 
     <header>
         <nav class="menu">
         <div class="logo"><h1>Olympus</h1></div>
         <div class="enlaces">
             <ul>
-                <li><a href="">inicio</a></li>
-                <li><a href="">Conocenos</a></li>
-                <li><a href="">Vision</a></li>
-                <li><a href="">Mision</a></li>
+                <li><a href="/index.html">inicio</a></li>
+                <li><a href="/web-pages/conocenos.html">Conocenos</a></li>
+                <li><a href="/web-pages/vision.html">Vision</a></li>
+                <li><a href="/web-pages/mision.html">Mision</a></li>
             </ul>
 
         </div>
@@ -41,50 +41,79 @@
 
               <div id="slide-1">
 
-                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/cf6b7b28-2b0d-8653-cc70-08323a8de235.jpeg?a=49f1f7f0-10ed-2ca3-79e0-54da52c6bc0a">
+                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/cf6b7b28-2b0d-8653-cc70-08323a8de235.jpeg?a=49f1f7f0-10ed-2ca3-79e0-54da52c6bc0a" alt="Imagen no disponible">
+                
+                <div class="texto">
+                  <h2>BUCKET CLÁSICO DE 12 PIEZAS</h2>
+                <p>Experimenta el placer picante del Bucket Clásico de 12 piezas Hot Cruji. 
+                  Este festín incluye 1 puré familiar y 1 ensalada familiar más 4 bísquets,
+                   ideal para satisfacer los paladares más exigentes en cualquier reunión familiar. Pide a domicilio.
+                   $499
+
+                  </p>
+                  </div>
               </div>
               <div id="slide-2">
                 
-                <img src="https://cdn.tictuk.com/19d82e99-888f-c7b6-e01c-9f66775c62ac/ae0ef5dd-9941-52ad-47de-23569ffb121f.png?a=fecde957-05ed-41d1-ed7a-a9c132b1daea">
+                <img src="https://cdn.tictuk.com/19d82e99-888f-c7b6-e01c-9f66775c62ac/ae0ef5dd-9941-52ad-47de-23569ffb121f.png?a=fecde957-05ed-41d1-ed7a-a9c132b1daea" alt="Imagen no disponible">
+              <div class="texto">
+                <h2>TOUCHDOWN PACK</h2>
+                <p>El combo ganador de KFC: 3 Ke-Tiras® Burger (2 Ke Tiras® en cualquier receta, mayonesa, lechuga y pepinillos), 
+                  6 Ke-Tiras® en cualquier receta y 1 papas familiares. ¡Pídelo a domicilio y celebra!
+                  $479
+
+                </p>
+              </div>
               </div>
               <div id="slide-3">
 
-                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/1581938a-3c1f-8c75-27e0-c56cc4aa48ba.jpeg?a=bfb1f54c-8e38-f255-df35-0f11777e08f9" alt="">
-            </div>
+                <img src="https://cdn.tictuk.com/abb50587-39c2-a4e0-3234-46b323dfb907/1581938a-3c1f-8c75-27e0-c56cc4aa48ba.jpeg?a=bfb1f54c-8e38-f255-df35-0f11777e08f9"alt="Imagen no disponible">
+                <div class="texto">
+                  <h2>LA GRAN JUGADA PIEZAS
+                  </h2>
+                  <p>¡La Gran Jugada Piezas de KFC es el combo perfecto! Incluye un bucket con 18 piezas de pollo crujiente,
+                     2 purés familiares, 1 ensalada familiar, 4 bisquets y 1 Add-On especial de la NFL®: 4 nuggets, 1 dip y 1 casco NFL®.
+                      ¡Pide a domicilio! *32 diseños NFL diferentes + 1 Edición KFC®️ sujetos a disponibilidad.
+                      $529
+
+                  </p>
+                </div>
+              </div>
           </div>
         </div>
     </section>
-    <form>
-
-    </form>
-   
- 
+    <!--El formulario no debe funcionar aun-->
+    <div class="form">
+      <h2>Envíanos un mensaje</h2>
+      <form action="#" method="post">
+        <label>nombre:</label>
+        <input type="text" name="name" placeholder="tu nombre" required>
+        <label for="">correo</label>
+        <input type="email" name="email" placeholder="tu correo electronico" required>
+        <label for="">Por favor, dejanos un mensaje</label>
+        <textarea name="message" placeholder="tu mensaje" required></textarea>
+        <button type="submit">enviar</button>
+      </form>
+    </div>
 
     <footer class="footer">
         <div class="contacto">
           <h2>Contactanos</h2>
           <p>Email: contacto@</p>
           <p>Teléfono: 000000</p>
+          <p>© Con derechos reservados</p>
+          <p>Las imágenes usadas en este sitio son propiedad de Kentucky Fried Chicken.</p>
         </div>
       
+
         <div class="redes-sociales">
           <h2>Síguenos</h2>
           <ul>
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-            <li><a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.facebook.com/KFCMexico/" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a href="https://x.com/kfc_mexico" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.instagram.com/kfcmexico/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.linkedin.com/company/kfc-m%C3%A9xico/?originalSubdomain=mx" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
           </ul>
-        </div>
-      
-        <div class="form">
-          <h2>Envíanos un mensaje</h2>
-          <form action="#" method="post">
-            <input type="text" name="name" placeholder="tu nombre" required>
-            <input type="email" name="email" placeholder="u correo electronico" required>
-            <textarea name="message" placeholder="tu mensaje" required></textarea>
-            <button type="submit">enviar</button>
-          </form>
         </div>
       </footer>
       
